@@ -27,28 +27,30 @@ body {
   color: rgb(255, 255, 255);
 }
 
+/* -----------------------------  Navbar ------------------------------- */
+
 .navbar {
   position: fixed;
-  z-index: 100;
-  background-color: #fff !important;
+  width: 100%;
+  z-index: 1000;
+  background-color: #000;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
 
-.nav-user-img {
+/* .user-img {
   width: 6%;
   margin-right: 20px;
   border-radius: 50%;
   opacity: 10;
-}
+} */
 
 .navbar-brand {
-  padding: 0;
-  margin-right: 40px;
-  margin-top: 5px;
+  padding: 0 0 0 15px;
   opacity: 0.8;
   font-weight: 700;
 }
 
-.nav-user:hover {
+.navbar-brand:hover {
   color: rgb(120, 67, 233);
   opacity: 10;
 }
@@ -64,18 +66,22 @@ body {
   opacity: 10;
 }
 
+.navbar-nav {
+  padding-right: 40px;
+}
+
 .nav-item {
-  margin-right: 40px;
-  margin-top: 5px;
   font-weight: 700;
 }
 
-.nav-btn {
+.link-opt {
   margin-right: 40px;
+  margin-top: 5px;
+}
+
+.nav-btn {
   opacity: 0.8;
   font-weight: 700;
-  /* margin-bottom: 5px; */
-  margin-top: 5px;
   padding: 5px 15px;
   border: 1px solid black;
   background-color: transparent;
@@ -105,11 +111,47 @@ body {
   height: 180%;
 }
 
+@media (max-width: 991px) {
+  .nav-item {
+    display: block;
+    text-decoration: none;
+    padding: 1.2rem 1rem;
+    font-size: 1rem;
+    color: #000;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+  }
+
+  .home-link {
+    margin-top: 0.7rem;
+    border-top: 1px solid #eee;
+  }
+
+  .navbar-nav {
+    padding: 0;
+  }
+
+  .link-opt {
+    margin: 0;
+  }
+
+  .nav-link-btn {
+    padding-bottom: 0;
+    border: none;
+  }
+}
+
+/* -----------------------------  Hero Section  ------------------------------- */
+
 .hero-sec {
   width: 100%;
   text-align: center;
   height: 100vh;
-  min-height: 50rem;
+  min-height: 47rem;
   max-height: 120rem;
   position: relative;
   background: linear-gradient(
@@ -133,13 +175,12 @@ body {
   color: #000;
   margin-top: 35px;
   margin-bottom: 60px;
-  font-weight: 700;
   opacity: 0.8;
 }
 
 .hero-btn {
-  width: 20%;
-  padding: 12px 8px;
+  width: 15rem;
+  padding: 0.75rem 0.5rem;
   font-size: 1.35rem;
   margin: auto;
 }
@@ -180,11 +221,127 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 22%;
+  top: 145px;
 }
 
 .scroll-text {
   color: #333;
   margin: 2px 0 0 10px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 835px) {
+  .scroll {
+    display: none;
+  }
+}
+
+/* -----------------------------  About Section  ------------------------------- */
+
+.about-sec {
+  padding: 8rem 0 8rem 0;
+  color: #000;
+  background-color: #fafafa;
+}
+
+.main-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+
+.heading-sec {
+  margin-bottom: 7rem;
+}
+
+.heading-sec-main {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  position: relative;
+  color: #000;
+}
+
+.heading-sec-main::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 3rem;
+  background: #7843e9;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.heading-sec-sub {
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+  opacity: 0.8;
+  max-width: 80rem;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+}
+
+.about-content-title {
+  font-weight: 700;
+  font-size: 1.85rem;
+  margin-bottom: 3rem;
+}
+
+.about-content-details-para {
+  font-size: 1rem;
+  color: #000;
+  opacity: 0.8;
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.about-btn {
+  margin-top: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-skill {
+  padding: 1rem 2rem;
+  margin-bottom: 1.6rem;
+  margin-right: 1.6rem;
+  font-size: 1rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 700;
+  /* color: #666; */
+  color: #000;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.skills-skill:hover {
+  box-shadow: 1.75px 1.75px 7px #000;
+}
+
+@media (max-width: 900px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    grid-gap: 7rem;
+  }
 }

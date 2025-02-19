@@ -2,47 +2,48 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary p-3">
-      <div className="container-fluid">
-        <div className="left-nav">
-          <a className="navbar-brand" href="#">
-            <img src="asset/TusharRana.jpg" alt="" className="nav-user-img" />
-            <span className="nav-user">TUSHAR RANA</span>
-          </a>
-        </div>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid p-3">
+        <a className="navbar-brand" href="#">
+          {/* <span>
+            <img src="asset/TusharRana.jpg" alt="" className="user-img" />
+          </span> */}
+          TUSHAR RANA
+        </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler border-0 shadow-none"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
-        <div className="right-nav">
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
-                  HOME
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  ABOUT
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  PROJECTS
-                </a>
-              </li>
-            </ul>
-            <button className="nav-btn">CONTACT</button>
-          </div>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-lg-0">
+            <li className="nav-item home-link">
+              <a className="nav-link link-opt " aria-current="page" href="#">
+                HOME
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link link-opt" href="#">
+                ABOUT
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link link-opt" aria-current="page" href="#">
+                PROJECTS
+              </a>
+            </li>
+            <li className="nav-item nav-link-btn">
+              <a className="nav-link" href="#">
+                <button className="nav-btn">CONTACT</button>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

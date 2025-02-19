@@ -18,10 +18,10 @@ function Hero() {
         <button className="hero-btn nav-btn">PROJECTS</button>
       </div>
 
-      <div class="scroll">
-        <div class="mouse"></div>
-        <p class="scroll-text">
-          Scroll Down <i class="fa-solid fa-arrow-down"></i>
+      <div className="scroll">
+        <div className="mouse"></div>
+        <p className="scroll-text">
+          Scroll Down <i className="fa-solid fa-arrow-down"></i>
         </p>
       </div>
     </div>
