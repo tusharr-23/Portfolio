@@ -29,17 +29,21 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link link-opt" href="#">
+              <a className="nav-link link-opt" href="#about">
                 ABOUT
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link link-opt" aria-current="page" href="#">
+              <a
+                className="nav-link link-opt"
+                aria-current="page"
+                href="#projects"
+              >
                 PROJECTS
               </a>
             </li>
             <li className="nav-item nav-link-btn">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 <button className="nav-btn">CONTACT</button>
               </a>
             </li>

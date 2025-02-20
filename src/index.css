@@ -229,6 +229,7 @@ body {
   margin: 2px 0 0 10px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media (max-width: 835px) {
@@ -343,5 +344,137 @@ body {
   .about-content {
     grid-template-columns: 1fr;
     grid-gap: 7rem;
+  }
+}
+
+/* -----------------------------  Projects Section  ------------------------------- */
+
+.projects-sec {
+  padding: 8rem 0 8rem 0;
+  color: #000;
+  background-color: #fff;
+}
+
+.projects-content {
+  display: flex;
+  flex: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 7rem;
+}
+
+.project-container {
+  position: relative;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  height: 470px;
+  width: 390px;
+  text-align: center;
+  border-radius: 5px;
+}
+.front-face,
+.back-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s linear;
+}
+
+.project-img {
+  height: 225px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.project-name {
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 0.8;
+  padding-top: 25px;
+}
+
+.about {
+  margin-top: 15px;
+  padding: 0px 25px;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.9;
+}
+
+.project-heading {
+  padding-top: 35px;
+  font-weight: 600;
+  color: #000;
+  opacity: 0.8;
+}
+
+.project-desc {
+  margin-top: 30px;
+  padding: 0px 30px;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.9;
+  text-align: justify;
+}
+
+.project-visit {
+  font-size: 20px;
+  width: 150px;
+  opacity: 0.8;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 50px 20px;
+}
+
+.socials-tag {
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.socials-tag-icon {
+  font-size: 27px;
+  opacity: 0.8;
+}
+
+.socials-tag-icon:hover {
+  transition: transform 0.2s linear;
+  transform: scale(1.25);
+  opacity: 1;
+}
+
+.back-face {
+  transform: perspective(800px) rotateY(-180deg);
+}
+.front-face {
+  transform: perspective(800px) rotateY(0deg);
+}
+.project-container:hover > .back-face {
+  transform: perspective(800px) rotateY(0deg);
+}
+.project-container:hover > .front-face {
+  transform: perspective(800px) rotateY(180deg);
+}
+
+@media (max-width: 950px) {
+  .projects-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .project-container {
+    margin-bottom: 7rem;
   }
 }

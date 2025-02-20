@@ -15,14 +15,16 @@ function Hero() {
       </div>
 
       <div className="row">
-        <button className="hero-btn nav-btn">PROJECTS</button>
+        <a href="#projects">
+          <button className="hero-btn nav-btn">PROJECTS</button>
+        </a>
       </div>
 
       <div className="scroll">
         <div className="mouse"></div>
-        <p className="scroll-text">
+        <a className="scroll-text" href="#about">
           Scroll Down <i className="fa-solid fa-arrow-down"></i>
-        </p>
+        </a>
       </div>
     </div>
   );
