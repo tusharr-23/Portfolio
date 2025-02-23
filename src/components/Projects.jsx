@@ -27,12 +27,12 @@ function Projcets() {
               </p>
             </div>
             <div className="back-face">
-              <h3 className="project-heading">WanderLust</h3>
+              <h3 className="project-heading project-name">WanderLust</h3>
               <p className="project-desc">
-                Wanderlust, where you can find, list properties and, leave
-                ratings and reviews for a better booking experience. Built with
-                HTML, CSS, JS, Node.js, Express.js, and MongoDB, it ensures a
-                smooth and reliable experience for travelers and hosts.
+                Wanderlust, where you can find, list properties &, leave ratings
+                & reviews for a better booking experience. Built with HTML, CSS,
+                JS, Node.js, Express.js, and MongoDB, it ensures a smooth &
+                reliable experience for travelers and hosts.
               </p>
               <button className="nav-btn project-visit">
                 Visit &nbsp;{" "}
@@ -68,12 +68,14 @@ function Projcets() {
               </p>
             </div>
             <div className="back-face">
-              <h3 className="project-heading">HackerRank(Clone)</h3>
+              <h3 className="project-heading project-name">
+                HackerRank(Clone)
+              </h3>
               <p className="project-desc">
-                This project is a simple clone of the HackerRank platform,
-                created using only HTML and CSS. The goal was to replicate the
-                clean, minimalistic design of HackerRank's interface while
-                focusing on the layout, styling, and responsiveness.
+                A simple clone of the HackerRank platform, created using only
+                HTML & CSS. The goal was to replicate the clean, minimalistic
+                design of HackerRank's interface while focusing on the layout,
+                styling, & responsiveness.
               </p>
               <button className="nav-btn project-visit">
                 Visit &nbsp;{" "}
@@ -112,7 +114,7 @@ function Projcets() {
               </p>
             </div>
             <div className="back-face">
-              <h3 className="project-heading">Spotify(Clone)</h3>
+              <h3 className="project-heading project-name">Spotify(Clone)</h3>
               <p className="project-desc">
                 A stylish and responsive Spotify clone built using HTML, and
                 CSS. This project replicates the look and feel of Spotify,
@@ -154,7 +156,7 @@ function Projcets() {
             </div>
 
             <div className="back-face">
-              <h3 className="project-heading">TradeXpert</h3>
+              <h3 className="project-heading project-name">TradeXpert</h3>
               <p className="project-desc">
                 Built a full-stack stock trading platform with real-time market
                 data, order execution, portfolio tracking, and interactive
