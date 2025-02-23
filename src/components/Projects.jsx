@@ -39,10 +39,13 @@ function Projcets() {
                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </button>
               <div className="socials">
-                <a href="" className="socials-tag">
+                <a href="https://github.com/tusharr-23" className="socials-tag">
                   <i className="fa-brands fa-github socials-tag-icon"></i>
                 </a>
-                <a href="" className="socials-tag">
+                <a
+                  href="https://www.linkedin.com/in/ranatushar"
+                  className="socials-tag"
+                >
                   <i className="fa-brands fa-linkedin socials-tag-icon"></i>
                 </a>
                 <a href="" className="socials-tag">
@@ -77,10 +80,13 @@ function Projcets() {
                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </button>
               <div className="socials">
-                <a href="" className="socials-tag">
+                <a href="https://github.com/tusharr-23" className="socials-tag">
                   <i className="fa-brands fa-github socials-tag-icon"></i>
                 </a>
-                <a href="" className="socials-tag">
+                <a
+                  href="https://www.linkedin.com/in/ranatushar"
+                  className="socials-tag"
+                >
                   <i className="fa-brands fa-linkedin socials-tag-icon"></i>
                 </a>
                 <a href="" className="socials-tag">
@@ -118,10 +124,13 @@ function Projcets() {
                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </button>
               <div className="socials">
-                <a href="" className="socials-tag">
+                <a href="https://github.com/tusharr-23" className="socials-tag">
                   <i className="fa-brands fa-github socials-tag-icon"></i>
                 </a>
-                <a href="" className="socials-tag">
+                <a
+                  href="https://www.linkedin.com/in/ranatushar"
+                  className="socials-tag"
+                >
                   <i className="fa-brands fa-linkedin socials-tag-icon"></i>
                 </a>
                 <a href="" className="socials-tag">
@@ -157,10 +166,13 @@ function Projcets() {
                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
               </button>
               <div className="socials">
-                <a href="" className="socials-tag">
+                <a href="https://github.com/tusharr-23" className="socials-tag">
                   <i className="fa-brands fa-github socials-tag-icon"></i>
                 </a>
-                <a href="" className="socials-tag">
+                <a
+                  href="https://www.linkedin.com/in/ranatushar"
+                  className="socials-tag"
+                >
                   <i className="fa-brands fa-linkedin socials-tag-icon"></i>
                 </a>
                 <a href="" className="socials-tag">

@@ -10,10 +10,13 @@ function Footer() {
               <span>SOCIAL</span>
             </h2>
             <div className="main-footer-socials">
-              <a href="" className="footer-social">
+              <a href="https://github.com/tusharr-23" className="footer-social">
                 <i className="fa-brands fa-github footer-social-tag"></i>
               </a>
-              <a href="" className="footer-social">
+              <a
+                href="https://www.linkedin.com/in/ranatushar"
+                className="footer-social"
+              >
                 <i className="fa-brands fa-linkedin footer-social-tag"></i>
               </a>
               <a href="" className="footer-social">
