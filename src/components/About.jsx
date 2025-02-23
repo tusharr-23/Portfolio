@@ -40,7 +40,9 @@ function About() {
                 Let’s build something amazing together!
               </p>
             </div>
-            <button className="nav-btn about-btn">CONTACT</button>
+            <a href="#contact">
+              <button className="nav-btn about-btn">CONTACT</button>
+            </a>
           </div>
 
           <div className="about-content-skills">

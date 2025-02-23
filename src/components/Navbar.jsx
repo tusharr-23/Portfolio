@@ -5,9 +5,6 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid p-3">
         <a className="navbar-brand" href="#">
-          {/* <span>
-            <img src="asset/TusharRana.jpg" alt="" className="user-img" />
-          </span> */}
           TUSHAR RANA
         </a>
         <button
