@@ -91,8 +91,6 @@ function Projcets() {
           </div>
         </div>
 
-        {/* ------------------------------------------------------------------------------------------------------ */}
-
         <div className="projects-content">
           {/* ----- Project 3 ----- */}
           <div className="project-container">

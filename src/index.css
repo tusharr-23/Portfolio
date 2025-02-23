@@ -27,8 +27,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-/* -----------------------------  Navbar ------------------------------- */
-
 .navbar {
   position: fixed;
   width: 100%;
@@ -36,13 +34,6 @@ body {
   background-color: #000;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
-
-/* .user-img {
-  width: 6%;
-  margin-right: 20px;
-  border-radius: 50%;
-  opacity: 10;
-} */
 
 .navbar-brand {
   padding: 0 0 0 15px;
@@ -145,8 +136,6 @@ body {
   }
 }
 
-/* -----------------------------  Hero Section  ------------------------------- */
-
 .hero-sec {
   width: 100%;
   text-align: center;
@@ -238,8 +227,6 @@ body {
   }
 }
 
-/* -----------------------------  About Section  ------------------------------- */
-
 .about-sec {
   padding: 8rem 0 6rem 0;
   color: #000;
@@ -330,7 +317,6 @@ body {
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   font-weight: 700;
-  /* color: #666; */
   color: #000;
   opacity: 0.7;
   cursor: pointer;
@@ -350,8 +336,6 @@ body {
   }
 }
 
-/* -----------------------------  Projects Section  ------------------------------- */
-
 .projects-sec {
   padding: 8rem 0 5rem 0;
   color: #000;
@@ -367,9 +351,6 @@ body {
 
 .project-container {
   position: relative;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   height: 470px;
   width: 390px;
   text-align: center;
@@ -482,8 +463,6 @@ body {
   }
 }
 
-/* -----------------------------  Contact Section  ------------------------------- */
-
 .contact-sec {
   background: linear-gradient(
       to right,
@@ -568,8 +547,6 @@ body {
     font-size: 55%;
   }
 }
-
-/* -----------------------------  Footer Section  ------------------------------- */
 
 .main-footer {
   background: #000;

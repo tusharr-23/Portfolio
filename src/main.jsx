@@ -9,12 +9,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <>
     <Navbar />
     <Hero />
     <About />
     <Projcets />
     <Contact />
     <Footer />
-  </StrictMode>
+  </>
 );
